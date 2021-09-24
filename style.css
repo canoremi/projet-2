@@ -1,0 +1,161 @@
+body,html
+{
+    margin: 5px;
+    font-family: Raleway;
+}
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sizeLiens{
+    width: 45%;
+}
+
+.colorLien2{
+    color: black;
+}
+.decorationNone{
+    text-decoration: none;
+}
+.sizeLien{
+    width: 140px;
+    height: 99px;
+}
+.bordureNav{
+    border-top: 1px solid blue;
+}
+.colorBleu{
+   color: #0065fc; 
+}
+.colorBleuClair{
+    color: #deebff; 
+ }
+ .colorGris{
+    color: #f2f2f2; 
+ }
+
+ .backBleu{
+    background-color: #0065fc; 
+ }
+ .backBleuClair{
+    background-color : #deebff; 
+  }
+  .backGris{
+     background-color: #f2f2f2; 
+  }
+  .texteGras{
+      font-weight: bold;
+  }
+  /*header*/
+.bordureSearch{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+.iconSize{
+width: 50px;
+height: 50px;
+border-radius: 10px 0 0 10px;}
+
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.bordureNone{
+    border: none;
+}
+
+.paddingsearch{
+    padding-left: 20px;
+}
+
+.buttonsearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/* filtres */
+.filtre{
+    display: flex;
+    align-items: center;
+}
+.margFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.margFiltreTitre {
+    margin-right: 20px;
+}
+.filtreTexteIcons{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+
+}
+.filtreIcons{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+.filtreTexteIcons:hover > .filtreTexte {
+    color: #0065fc;
+}
+.filtreTexteIcons:hover > .filtreIcons {
+color: white;
+background-color: #0065fc;
+}
+
+.filtreTexte{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+.logoInfo{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;}
+
+.logoInfoTexte {
+    display: flex;
+    align-items: center;
+}
+
+/*hebergements*/
+.sizeHebergements{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.sizePopulaires{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
